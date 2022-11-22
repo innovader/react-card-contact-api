@@ -1,0 +1,25 @@
+.customButton {
+  font-family: 'Inter', sans-serif;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 27px;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  transition-duration: 0.4s;
+  padding: 6.5px 13px;
+}
+
+.customButton:hover {
+  color: #253866;
+  border-color: #253866;
+  cursor: pointer;
+}
+
+.customButton:active {
+  color: #FFFFFF;
+  background: #253866;
+}

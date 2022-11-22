@@ -1,0 +1,63 @@
+.contactCard {
+  font-family: 'Inter', sans-serif;
+  width: 208px;
+  height: 321px;
+  padding-bottom: 51px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.avatar {
+  background-color: #DEDCDC;
+  border-radius: 20px;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contactInfo {
+  position: relative;
+  top: -120px;
+  width: 208px;
+  height: 171px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, #E2E2EF 43.73%, #4667BB 100%);
+  border-radius: 20px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.name {
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #253766;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid #253866;;
+}
+
+.email, .location, .dateOfBirth {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #253766;
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  margin-top: 20px;
+}
